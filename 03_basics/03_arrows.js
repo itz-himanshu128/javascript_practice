@@ -14,3 +14,11 @@ obj.welcome_new_user()
 
 
 =()=>{}         // basic decleration of arrow function 
+
+const addTwo=(num1,num2)=>num1+num2                                 // way to declare the function 
+
+const aadTwo2=(num1,num2)=>{                                        // another methord of decleration 
+     num1+num2
+}
+
+const addTwo3=(num1,num2)=>({username:"himamshu"})                  // for returning a obj we need to use '()' before '{}'
